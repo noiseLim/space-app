@@ -1,20 +1,18 @@
 import React from 'react';
 
-import journey from '../../img/journey.png';
-import figure from '../../img/figure.png';
 import figure_corner1 from '../../img/figure_corner1.png';
 import figure_corner2 from '../../img/figure_corner2.png';
+import bg from '../../img/background_space.png';
 
 import './mainApp.scss';
 
 const MainApp = () => {
   return (
     <section className='main'>
+      <img src={bg} class='main__bg' alt='' />
       <div className='main__body'>
-        <div className='main__container-decoration'>
-          <div className='image-wrapper'>
-            <img src={journey} alt='journey'></img>
-          </div>
+        <div className='img-el'></div>
+        <div className='button-container'>
           <div className='button-wrapper'>
             <button className='button'>Начать путешествие</button>
             <div className='corner1'>
@@ -24,8 +22,8 @@ const MainApp = () => {
               <img src={figure_corner2} alt='figure2'></img>
             </div>
           </div>
-          <img src={figure} alt='figure'></img>
         </div>
+        <div className='img-el2'></div>
         <div className='main__container-item'>
           <div className='main__item-grid'>
             <div className='main__item-1'>

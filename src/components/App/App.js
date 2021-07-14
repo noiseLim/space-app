@@ -5,8 +5,6 @@ import AppHeader from '../AppHeader/AppHeader';
 import { publickRoutes } from '../../routes';
 import { MAIN_ROUTE } from '../../utils/consts';
 
-import './app.scss';
-
 const App = () => {
   return (
     <div className='app'>
