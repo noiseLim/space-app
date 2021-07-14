@@ -1,0 +1,212 @@
+.main {
+  max-width: 1920px;
+  &__body {
+    // display: flex;
+    margin: 0 auto;
+    padding: 151px 0 142px;
+    position: relative;
+  }
+  &__container-decoration {
+    position: absolute;
+    // top: 0;
+    // left: 80px;
+    left: 5em;
+  }
+  &__container-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &__item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  &__item-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 185px;
+    background: linear-gradient(
+      135deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.03) 80%
+    );
+  }
+  &__item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 185px;
+    background: linear-gradient(
+      225deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.03) 80%
+    );
+  }
+  &__item-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 185px;
+    background: linear-gradient(
+      45deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.03) 80%
+    );
+  }
+  &__item-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 185px;
+    height: 185px;
+    background: linear-gradient(
+      315deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.03) 80%
+    );
+  }
+}
+.main__item {
+  &-1:hover {
+    // transform: scale(0.95);
+    // transform-origin: bottom right;
+    background: linear-gradient(
+      135deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.07) 80%
+    );
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      135deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.2) 70%
+    );
+    border-image-slice: 1;
+  }
+  &-2:hover {
+    // transform: scale(0.95);
+    // transform-origin: bottom left;
+    background: linear-gradient(
+      225deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.07) 80%
+    );
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      225deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.2) 70%
+    );
+    border-image-slice: 1;
+  }
+  &-3:hover {
+    // transform: scale(0.95);
+    // transform-origin: top right;
+    background: linear-gradient(
+      45deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.07) 80%
+    );
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      45deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.2) 70%
+    );
+    border-image-slice: 1;
+  }
+  &-4:hover {
+    // transform: scale(0.95);
+    // transform-origin: top left;
+    background: linear-gradient(
+      315deg,
+      transparent 40%,
+      rgba(255, 255, 255, 0.07) 80%
+    );
+    border-style: solid;
+    border-width: 1px;
+    border-image-source: linear-gradient(
+      315deg,
+      transparent 60%,
+      rgba(255, 255, 255, 0.2) 70%
+    );
+    border-image-slice: 1;
+  }
+}
+.item-main {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 100;
+    color: #ffffff;
+  }
+  &__value {
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 700;
+    span {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
+
+.image-wrapper {
+  margin-top: 66px;
+}
+.button-wrapper {
+  position: relative;
+  float: left;
+}
+.corner1 {
+  position: absolute;
+  top: 16px;
+  left: -15px;
+}
+.corner2 {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.button {
+  width: 180px;
+  height: 35px;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(
+    189deg,
+    #263e66 20%,
+    #09213d 40%,
+    #111f2d 61%,
+    #23599c 79%
+  );
+  border-image-slice: 1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-color: #000000;
+
+  font-family: 'Museo Sans Cyrl';
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #ffffff;
+}

@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Museo Sans Cyrl';
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  min-width: 900px;
+  background: #000000;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local('Museo Sans Cyrl 100'),
+    url(./fonts/MuseoSansCyrl_100.otf) format('opentype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local('Museo Sans Cyrl 300'),
+    url(./fonts/MuseoSansCyrl_300.otf) format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: local('Museo Sans Cyrl 700'),
+    url(./fonts/MuseoSansCyrl_700.otf) format('opentype');
+  font-weight: 700;
+}
