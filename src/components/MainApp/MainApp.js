@@ -9,7 +9,7 @@ import './mainApp.scss';
 const MainApp = () => {
   return (
     <section className='main'>
-      <img src={bg} class='main__bg' alt='' />
+      <img src={bg} className='main__bg' alt='' />
       <div className='main__body'>
         <div className='img-el'></div>
         <div className='button-container'>
@@ -26,21 +26,21 @@ const MainApp = () => {
         <div className='img-el2'></div>
         <div className='main__container-item'>
           <div className='main__item-grid'>
-            <div className='main__item-1'>
+            <div className='main__item bg-item1'>
               <div className='item-main__wrapper'>
                 <div className='item-main__text'>мы</div>
                 <div className='item-main__value'>1</div>
                 <div className='item-main__text'>на рынке</div>
               </div>
             </div>
-            <div className='main__item-2'>
+            <div className='main__item bg-item2'>
               <div className='item-main__wrapper'>
                 <div className='item-main__text'>гарантируем</div>
                 <div className='item-main__value'>50%</div>
                 <div className='item-main__text'>безопасность</div>
               </div>
             </div>
-            <div className='main__item-3'>
+            <div className='main__item bg-item3'>
               <div className='item-main__wrapper'>
                 <div className='item-main__text'>календарик на</div>
                 <div className='item-main__value'>
@@ -49,7 +49,7 @@ const MainApp = () => {
                 <div className='item-main__text'>в подарок</div>
               </div>
             </div>
-            <div className='main__item-4'>
+            <div className='main__item bg-item4'>
               <div className='item-main__wrapper'>
                 <div className='item-main__text'>путешествие</div>
                 <div className='item-main__value'>597</div>
